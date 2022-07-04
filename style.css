@@ -45,9 +45,29 @@ h1{
     padding-left: 10px;
     box-shadow: 10px 10px 40px gray;
     border-bottom: 10%;
+    
 }
 .third-banner{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    border-bottom: 10%;
+}
+.one{
+display: flex;
+width: 50%;
+border-bottom: 200px;
+border-top: 100px;
+}
+.two{
+    display: flex;
+    width: 50%;
+float: right;
+
+}
+#last{
+    border-left:7px solid blue;
+}
+#last-last{
+    border-left:7px solid tomato;
 }
