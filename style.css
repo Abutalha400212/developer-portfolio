@@ -9,13 +9,13 @@ h1{
 .Build{
     color: orange;
 }
-section{
+.first{
     display: flex;
 }
 .welcome{
     width: 50%;
     padding-left: 10%;
-    border-bottom: 50px;
+    margin-bottom: 10%;
 
 }
 .welcome img{
@@ -23,7 +23,7 @@ section{
 }
 .link{
     text-decoration: none;
-background-color: coral;
+    background-color: coral;
     padding:10px 40px;
     color:white;
     font-weight: 700;
@@ -32,4 +32,22 @@ background-color: coral;
 .Top-Banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.second-banner{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Good-Bye{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-bottom: 10%;
+}
+.third-banner{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
